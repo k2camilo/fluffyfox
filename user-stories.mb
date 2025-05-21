@@ -1,0 +1,26 @@
+# Historias de Usuario - Proyecto Fluffy Fox
+
+## Historia 1: Estructura base del sitio web
+**Como** usuario visitante,  
+**quiero** acceder a una página web bien estructurada con encabezado, contenido principal y pie de página,  
+**para** navegar fácilmente y entender de qué trata el sitio.
+
+## Historia 2: Estilos visuales agradables
+**Como** usuario visitante,  
+**quiero** que el sitio tenga un diseño atractivo y coherente,  
+**para** tener una mejor experiencia visual mientras navego.
+
+## Historia 3: Navegación entre secciones
+**Como** usuario visitante,  
+**quiero** un menú de navegación funcional,  
+**para** moverme entre las distintas secciones de la página sin dificultad.
+
+## Historia 4: Interactividad básica
+**Como** usuario curioso,  
+**quiero** que algunos elementos del sitio reaccionen al hacer clic o al pasar el mouse,  
+**para** sentir que el sitio es dinámico y moderno.
+
+## Historia 5: Adaptabilidad a dispositivos
+**Como** usuario en celular o tablet,  
+**quiero** que el sitio se vea bien en mi dispositivo,  
+**para** poder explorarlo cómodamente desde cualquier lugar.
