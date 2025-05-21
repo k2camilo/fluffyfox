@@ -306,7 +306,7 @@ nav{
 }
 
 .season{
-    background-image: url(/img/halloween2.jpg);
+    background-image: url(/img/regalos_navidad.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -384,7 +384,7 @@ nav{
     color: var(--white);
     border-radius: 0.5rem;
     font-size: 1.5rem;
-    width: 4rem;
+    width: 5rem;
     position: absolute;
     text-align: center;
     font-weight: 700;
@@ -648,3 +648,152 @@ footer p{
     height: 3rem;
 }
 
+/* Modo responsive */
+
+
+@media (max-width: 768px) {
+    /* Ajustes para tablets y móviles pequeños */
+
+    /* Ajustar tamaños de fuentes */
+    html {
+        font-size: 50%; /* Para pantallas más pequeñas, los tamaños de texto son más pequeños */
+    }
+
+    /* Hacer la navegación más accesible en dispositivos pequeños */
+    nav {
+        height: auto;  /* Hacemos que la altura del nav sea automática para que no se corte */
+        padding: 1rem;
+    }
+
+    /* Ajuste de la barra superior */
+    .header_borde {
+        height: auto;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+    .logo {
+        width: 25rem; /* Reducimos el tamaño del logo en pantallas más pequeñas */
+    }
+
+    /* Contenedor de categorías */
+    .container-category {
+        padding: 0 1rem;
+        flex-direction: column; /* Apilamos las categorías */
+    }
+
+    .category-tittle h2 {
+        font-size: 3rem; /* Ajustamos el tamaño del título */
+    }
+
+    .category-item a {
+        font-size: 1.3rem; /* Reducimos el tamaño de los enlaces de las categorías */
+        padding: 0.5rem;
+    }
+
+    .scroll-btn {
+        display: none; /* Ocultamos los botones de scroll en pantallas pequeñas */
+    }
+
+    /* Sección de productos */
+    .main {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .main-section {
+        flex-direction: column; /* Apilamos las secciones */
+        height: auto;
+    }
+
+    .section-top, .section2 {
+        width: 100%; /* Hacemos que las secciones ocupen el 100% de ancho */
+        height: 100%;
+        margin: 0;
+    }
+
+    /* Ajustes en los formularios */
+    .contact-form {
+        padding: 1.5rem;
+        width: 90%;
+    }
+
+    .contact-form input, .contact-form textarea {
+        font-size: 1.4rem;
+    }
+
+    .contact-form h2 {
+        font-size: 2.5rem;
+    }
+
+    .contact-form .submit-btn {
+        font-size: 1.4rem;
+        padding: 1rem;
+    }
+
+    /* Footer */
+    footer {
+        padding: 1rem;
+    }
+
+    footer p {
+        font-size: 1.1rem;
+    }
+
+    .social-networks a {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+}
+
+/* Ajustes adicionales para pantallas de móviles muy pequeños (menos de 480px) */
+@media (max-width: 480px) {
+    .header_borde p {
+        font-size: 1.3rem; /* Ajustamos el tamaño del texto */
+    }
+
+    .category-tittle h2 {
+        font-size: 2.5rem;
+    }
+
+    .category-item a {
+        font-size: 1.2rem;
+    }
+
+    .section-tittle h2 {
+        font-size: 3.5rem;
+    }
+
+    .top-link h3 {
+        font-size: 3rem;
+    }
+
+    .top-link p {
+        font-size: 1.8rem;
+    }
+
+    .box-section2 h3 {
+        font-size: 3rem;
+    }
+
+    .section1-nav_gift {
+        width: 100%; /* Hacemos que las imágenes de los regalos ocupen el 100% del ancho */
+    }
+
+    .section1-nav_gift a img {
+        width: 100%; /* Hacemos que las imágenes sean responsivas */
+    }
+
+    .button-more button {
+        font-size: 1.3rem;
+        padding: 0.8rem;
+    }
+
+    .price {
+        font-size: 1.8rem;
+    }
+
+    .cents {
+        font-size: 1.3rem;
+    }
+}
