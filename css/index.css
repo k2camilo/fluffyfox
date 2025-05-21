@@ -79,7 +79,7 @@ nav{
     left: 0;
     right: 0;
     bottom: 0;
-    background-image: url(/img/fondo4.jpg);
+    background-image: url(../img/fondo4.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -212,7 +212,7 @@ nav{
 }
 
 .section-top{
-    background-image: url(/img/img_top.jpg);
+    background-image: url(../img/img_top.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -306,7 +306,7 @@ nav{
 }
 
 .season{
-    background-image: url(/img/regalos_navidad.jpeg);
+    background-image: url(../img/regalos_navidad.jpeg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -314,7 +314,7 @@ nav{
 }
 
 .others{
-    background-image: url(/img/others.jpg);
+    background-image: url(../img/others.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -457,7 +457,7 @@ nav{
 .brackfast{
     width: 100%;
     height: 40rem;
-    background-image: url(/img/desayuno.webp);
+    background-image: url(../img/desayuno.webp);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -491,7 +491,7 @@ nav{
 .gift-design{
     width: 100%;
     height: 40rem;
-    background-image: url(/img/regalos.jpg);
+    background-image: url(../img/regalos.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
